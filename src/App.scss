@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.App {
+    background-color: #6e6e6e;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+
+    .comingSoon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+
+        h1 {
+            font-family: 'Yellowtail', sans-serif;
+            color: white;
+            font-size: 10vw;
+            font-weight: normal;
+            margin: 0px;
+        }
+
+        h2 {
+            color: white;
+            font-size: 4vw;
+        }
+
+        .comingSoonHero {
+            height: 20vw;
+            max-height: 300px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .App {
+        .comingSoon {
+            h1 {
+                font-size: 100pt;
+            }
+
+            h2 {
+                font-size: 42pt;
+            }
+
+        }
+    }
+}

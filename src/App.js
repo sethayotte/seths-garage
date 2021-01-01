@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+
+import garageHero from './assets/GarageHero.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="comingSoon">
+        <h1>Seth's Garage</h1>
+        <h2>Coming Soon</h2>
+        <img className="comingSoonHero" src={garageHero} alt="Seths Garage Hero" />
+      </section>
     </div>
   );
 }
